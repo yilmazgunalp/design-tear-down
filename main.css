@@ -2,7 +2,8 @@
 	body {
 		margin: 0;
 		box-sizing: border-box;
-
+		font-family: 'Volkhov', serif;
+		
 	}
 
 
@@ -25,7 +26,8 @@
 	width: 75%;
 	background: #E3E2E2;
 	float: left;
-	margin-top: 12px;
+	margin-top: 15px;
+	
 	
 	}
 	
@@ -34,13 +36,24 @@
 main {
 	float: right;
 	width:65%;
+	margin-top: 45px;
+	
+	
+	
 }	
 	
 main h1 {
 	height: 55px;
 	background: #848484;
+	font-weight: bold;
 	
 }	
+
+main p {
+	
+line-height: 1.5em;
+	
+}
 
 main article {
 	height: 350px;
@@ -55,7 +68,7 @@ main article {
 	width:33%;
 	background: #B9B6B6;
 	margin-right: 15px;
-	margin-top: 12px;
+	margin-top: 45px;
 	height: 600px;
 	
 }
@@ -84,7 +97,8 @@ border: 1px solid black;
 
 #cat section {
 	
-height: 126px;	
+height: 126px;
+background: #e3e4e8;
 	
 }
 	
@@ -98,10 +112,19 @@ height: 126px;
 }
 
 
+
+
 .side-compp {
 	
 	height: 250px;
 }
+
+.side-compp:nth-child(even) {
+	
+background: #cbced3;	
+	
+}
+
 
 .main-comp {
 	
